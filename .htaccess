@@ -1,0 +1,5 @@
+# Prevent browsing directly to configuration and implementation files.
+# The website still calls index.php normally.
+<FilesMatch "^(?!index\.php$).+\.php$">
+    Require all denied
+</FilesMatch>

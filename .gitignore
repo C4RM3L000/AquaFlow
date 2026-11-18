@@ -1,0 +1,6 @@
+# Local secrets (not for version control)
+/api/mail_local.php
+# Runtime/private logs and IDE clutter
+*.log
+.vscode/
+.idea/
